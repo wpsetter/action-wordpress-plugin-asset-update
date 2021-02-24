@@ -34,7 +34,7 @@ if [[ -z "$README_NAME" ]]; then
 fi
 echo "ℹ︎ README_NAME is $README_NAME"
 
-SVN_URL="https://plugins.svn.wordpress.org/${SLUG}/"
+SVN_URL="https://crush.svn.beanstalkapp.com/${SLUG}/"
 SVN_DIR="/github/svn-${SLUG}"
 
 # Checkout just trunk and assets for efficiency
